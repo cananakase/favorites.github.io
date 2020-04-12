@@ -1,0 +1,148 @@
+/* Included laptop.html */
+/* Container needed to position the button. Adjust the width as needed */
+.container
+{
+  position: relative;
+  width: 25%;
+  float: left;
+  padding: 5px;
+}
+
+/* Make the image responsive */
+.container img
+{
+  width: 100%;
+  height: auto;
+}
+
+.img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  -webkit-filter: opacity(20%); /* Safari 6.0 - 9.0 */
+  filter: opacity(20%);
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(150, 150, 150, 0.2);
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.container:hover img
+{
+  filter: opacity(100%);
+}
+
+
+.btn:hover
+{
+  background-color: rgba(150, 150, 150, 0.5);
+}
+
+/* Clear floats after image containers */
+.row::after
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add responsiveness */
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px)
+{
+  .container
+  {
+    width: 100%;
+  }
+}
+
+ul
+{
+  white-space: nowrap;
+}
+
+ul, li
+{
+  list-style: none;
+  display: inline;
+}
+
+/* Included in mobile.html */
+.img2
+{
+  display: block;
+  margin: 1cm auto 0.5cm auto;
+  -webkit-filter: opacity(20%); /* Safari 6.0 - 9.0 */
+  filter: opacity(20%);
+  width: 75%;
+  cursor: pointer;
+}
+
+.img2:hover
+{
+  filter: opacity(100%);
+}
+
+.container2
+{
+  float: left;
+  width: 100%;
+  padding: 5px;
+  height: auto;
+}
+
+/* Included in index.html */
+#btn3
+{
+  background-color: white;
+  color: #202020;
+  padding: 12px 50px;
+  border: 2px solid #202020;
+  border-radius: 5%;
+  cursor: pointer;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+#btn3:hover, #btn4:hover
+{
+  background-color: #202020;
+  color: white;
+}
+
+
+#btn4 {
+  background-color: white;
+  color: #202020;
+  padding: 12px 50px;
+  border: 2px solid #202020;
+  border-radius: 5%;
+  cursor: pointer;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 70%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

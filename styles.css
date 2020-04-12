@@ -1,0 +1,92 @@
+body
+{
+  font-family: Georgia, serif;
+}
+
+h1
+{
+  text-align: center;
+  cursor: pointer;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+
+h2
+{
+  margin-top: 2cm;
+  margin-left: 2.5cm;
+}
+
+h3
+{
+  margin-top: 1cm;
+  margin-left: 2.5cm;
+  margin-right: 2.5cm;
+}
+
+p
+{
+  margin-top: 25px;
+  margin-left: 2.5cm;
+  margin-right: 2.5cm;
+}
+
+
+
+.description
+{
+  margin-left: 4cm;
+}
+
+/* Menu bar */
+/* Add a black background color to the top navigation */
+.topnav
+{
+  background-color: white;
+  overflow: hidden;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a
+{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover
+{
+  border-bottom: 3px solid gray;
+}
+
+.topnav a.active
+{
+  border-bottom: 3px solid gray;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/* Footer */
+.footer
+{
+  position: absolute;
+  bottom: auto;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: right;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+  margin-top: 1cm;
+}
+
